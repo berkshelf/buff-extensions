@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Buff::Extensions::DottedPaths do
+describe Buff::Extensions::Hash::DottedPaths do
   describe "ClassMethods" do
     subject { Hash }
 

@@ -1,5 +1,5 @@
 module Buff
-  module Extensions
+  module Extensions::Hash
     # Borrowd and modified from
     # {https://raw.github.com/rails/rails/master/activesupport/lib/active_support/core_ext/hash/keys.rb}
     module KeyTransforms
@@ -141,4 +141,8 @@ module Buff
       end
     end
   end
+end
+
+class Hash
+  include Buff::Extensions::Hash::KeyTransforms
 end

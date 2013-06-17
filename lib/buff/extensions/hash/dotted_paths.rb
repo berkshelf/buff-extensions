@@ -1,7 +1,5 @@
-require 'buff/extensions/object'
-
 module Buff
-  module Extensions
+  module Extensions::Hash
     module DottedPaths
       class << self
         def included(base)
@@ -121,4 +119,8 @@ module Buff
       end
     end
   end
+end
+
+class Hash
+  include Buff::Extensions::Hash::DottedPaths
 end

@@ -1,5 +1,5 @@
 module Buff
-  module Extensions
+  module Extensions::Hash
     module ReverseMerge
       # @param [Hash] other
       #
@@ -16,4 +16,8 @@ module Buff
       end
     end
   end
+end
+
+class Hash
+  include Buff::Extensions::Hash::ReverseMerge
 end
