@@ -2,7 +2,7 @@
 [![Gem Version](https://badge.fury.io/rb/buff-extensions.png)](http://badge.fury.io/rb/buff-extensions)
 [![Build Status](https://travis-ci.org/RiotGames/buff-extensions.png?branch=master)](https://travis-ci.org/RiotGames/buff-extensions)
 
-A mixin for querying the platform running Ruby
+Extensions to Core Ruby classes
 
 ## Installation
 
