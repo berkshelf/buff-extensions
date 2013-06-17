@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Buff::Extensions::VERSION
   spec.authors       = ["Jamie Winsor"]
   spec.email         = ["reset@riotgames.com"]
-  spec.description   = %q{A mixin for querying the platform running Ruby}
-  spec.summary       = %q{Buff up your code with a mixin for querying the platform running Ruby}
+  spec.description   = %q{Extensions to Core Ruby classes}
+  spec.summary       = spec.description
   spec.homepage      = "https://github.com/RiotGames/buff-extensions"
   spec.license       = "Apache 2.0"
 
