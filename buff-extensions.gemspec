@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "buff-extensions"
   spec.version       = Buff::Extensions::VERSION
   spec.authors       = ["Jamie Winsor"]
-  spec.email         = ["reset@riotgames.com"]
+  spec.email         = ["jamie@vialstudios.com"]
   spec.description   = %q{Extensions to Core Ruby classes}
   spec.summary       = spec.description
   spec.homepage      = "https://github.com/RiotGames/buff-extensions"
