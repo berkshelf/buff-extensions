@@ -1,9 +1,11 @@
-module Boolean; end
+module Buff
+  module Boolean; end
+end
 
 class TrueClass
-  include Boolean
+  include Buff::Boolean
 end
 
 class FalseClass
-  include Boolean
+  include Buff::Boolean
 end
