@@ -7,5 +7,6 @@ module Buff::Extensions
     require_relative 'hash/slice'
 
     extend Slice
+    extend ReverseMerge
   end
 end
