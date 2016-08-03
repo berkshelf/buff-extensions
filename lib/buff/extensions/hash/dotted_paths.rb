@@ -79,12 +79,12 @@ module Buff
       #     }
       #   }
       #
-      #   nested_hash.dig('deep.nested.hash') => :seed_value
+      #   nested_hash.berks_dig('deep.nested.hash') => :seed_value
       #
       # @param [String] path
       #
       # @return [Object, nil]
-      def dig(path)
+      def berks_dig(path)
         return nil unless path.present?
 
         parts = path.split('.', 2)
@@ -92,7 +92,7 @@ module Buff
         if !parts[1] or match.nil?
           match
         else
-          match.dig(parts[1])
+          match.berks_dig(parts[1])
         end
       end
 

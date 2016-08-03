@@ -41,7 +41,7 @@ describe Buff::Extensions::Hash::DottedPaths do
 
   subject { Hash.new }
 
-  describe "#dig" do
+  describe "#berks_dig" do
     context "when the Hash contains the nested path" do
       subject do
         {
@@ -54,13 +54,13 @@ describe Buff::Extensions::Hash::DottedPaths do
       end
 
       it "returns the value at the dotted path" do
-        expect(subject.dig("we.found.something")).to eql(true)
+        expect(subject.berks_dig("we.found.something")).to eql(true)
       end
     end
 
     context "when the Hash does not contain the nested path" do
       it "returns a nil value" do
-        expect(subject.dig("nothing.is.here")).to be_nil
+        expect(subject.berks_dig("nothing.is.here")).to be_nil
       end
     end
 
@@ -76,12 +76,12 @@ describe Buff::Extensions::Hash::DottedPaths do
       end
 
       it "returns the value at the dotted path" do
-        expect(subject.dig("we.found.something")).to eql(:symbol_value)
+        expect(subject.berks_dig("we.found.something")).to eql(:symbol_value)
       end
     end
 
     it "returns nil if given a blank string" do
-      expect(subject.dig("")).to be_nil
+      expect(subject.berks_dig("")).to be_nil
     end
 
     it "returns 'false' nested values as 'false' and not 'nil'" do
@@ -91,7 +91,7 @@ describe Buff::Extensions::Hash::DottedPaths do
         }
       }
 
-      expect(hash.dig('ssl.verify')).to eql(false)
+      expect(hash.berks_dig('ssl.verify')).to eql(false)
     end
   end
 
