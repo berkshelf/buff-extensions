@@ -1,6 +1,6 @@
 # Buff::Extensions
-[![Gem Version](https://badge.fury.io/rb/buff-extensions.png)](http://badge.fury.io/rb/buff-extensions)
-[![Build Status](https://travis-ci.org/RiotGames/buff-extensions.png?branch=master)](https://travis-ci.org/RiotGames/buff-extensions)
+[![Gem Version](https://badge.fury.io/rb/buff-extensions.svg)](http://badge.fury.io/rb/buff-extensions)
+[![Build Status](https://travis-ci.org/berkshelf/buff-extensions.svg?branch=master)](https://travis-ci.org/berkshelf/buff-extensions)
 
 Extensions to Core Ruby classes
 
