@@ -4,21 +4,29 @@
 
 ### Install prerequisites
 
-Install the latest version of [Bundler](http://gembundler.com)
+Install the latest version of [Bundler](http://bundler.io/)
 
-    $ gem install bundler
+```shell
+$ gem install bundler
+```
 
 Clone the project
 
-    $ git clone git://github.com/RiotGames/buff-extensions.git
+```shell
+$ git clone git://github.com/RiotGames/buff-extensions.git
+```
 
 and run:
 
-    $ cd buff-extensions
-    $ bundle install
+```shell
+$ cd buff-extensions
+$ bundle install
+```
 
 Bundler will install all gems and their dependencies required for testing and developing.
 
 ### Running unit (RSpec) tests
 
-    $ bundle exec guard start
+```shell
+$ bundle exec guard start
+```
