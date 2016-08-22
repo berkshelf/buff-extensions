@@ -40,4 +40,4 @@ end
 
 - Jamie Winsor ([jamie@vialstudios.com](mailto:jamie@vialstudios.com))
 
-Thank you to all of our [Contributors](https://github.com/RiotGames/buff-extensions/graphs/contributors), testers, and users.
+Thank you to all of our [Contributors](https://github.com/berkshelf/buff-extensions/graphs/contributors), testers, and users.
